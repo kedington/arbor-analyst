@@ -1,0 +1,65 @@
+body {
+  background-color: #F5EAE1;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #4D6B50;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+#treeImage {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid #93A596;
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+#options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option {
+  font-size: 1.5em;
+  background-color: #B9C8A8;
+  border: 2px solid #93A596;
+  color: #4D6B50;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.option:hover {
+  background-color: #93A596;
+  color: #F5EAE1;
+}
+
+#result {
+  font-size: 1.5em;
+  text-align: center;
+  color: #4D6B50;
+  margin-top: 1em;
+}
+
+button {
+  border: 2px solid #4D6B50;
+  border-radius: 10px;
+  background-color: #F5EAE1;
+  font-size: 1.2em;
+  color: #4D6B50;
+  padding: 0.5em 1em;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #4D6B50;
+  color: #F5EAE1;
+}
+
